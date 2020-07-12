@@ -1,0 +1,15 @@
+{
+  "emmet.extensionsPath": "",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.preferences": {
+  
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "javascriptreact": "jsx",
+	  "typescript": "jsx",
+	  "typescriptreact": "jsx"
+  }
+}

@@ -1,0 +1,30 @@
+.header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f5f5f5;
+}
+
+.ul li {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+
+.ul li:hover {
+  color: #9c27b0;
+  text-decoration: underline;
+}
+
+.figure {
+  display: inline;
+}
+
+.img {
+  display: inline-block;
+  width: 69.75px;
+  height: 58px;
+  margin-right: 30px
+}

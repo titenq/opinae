@@ -1,0 +1,38 @@
+.wrapper {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #263238;
+  color: #fff;
+}
+
+.devBy {
+  text-align: center;
+}
+
+.devBy span {
+  font-size: 14px;
+}
+
+.devBy a {
+  margin-left: 10px;
+}
+
+.imgs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+}
+
+.fsm {
+  width: 144px;
+  height: 50.66px;
+}
+
+.dev {
+  width: 120px;
+  height: 30px;
+}
