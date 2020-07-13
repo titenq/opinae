@@ -1,5 +1,5 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet';
-import moment from 'moment';
+import moment from 'moment-timezone';
 
 import decodeBase64 from '../../utils/decodeBase64';
 
@@ -49,7 +49,7 @@ export default async (req, res) => {
       Cupom,
       Promo,
       Mensagem: data.Mensagem,
-      Data: moment(new Date()).format('DD/MM/YYYY HH:mm:ss')
+      Data: moment().tz('America/Sao_Paulo').format('DD/MM/YYYY HH:mm:ss')
     });
 
     res.end(JSON.stringify({
