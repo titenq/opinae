@@ -49,9 +49,9 @@ export default async (req, res) => {
       Cupom,
       Promo,
       Mensagem: data.Mensagem,
-      Data: moment.utc().format('DD/MM/YYYY HH:mm:ss')
+      Data: moment.utc().local().format('DD/MM/YYYY HH:mm:ss')
     });
-
+    
     res.end(JSON.stringify({
       showCoupon: Cupom !== '',
       Cupom,
