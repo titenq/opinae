@@ -49,7 +49,7 @@ export default async (req, res) => {
       Cupom,
       Promo,
       Mensagem: data.Mensagem,
-      Data: moment.utcOffset('-03:00').format('DD/MM/YYYY HH:mm:ss')
+      Data: moment(new Date()).format('DD/MM/YYYY HH:mm:ss')
     });
 
     res.end(JSON.stringify({
