@@ -34,3 +34,7 @@
   left: calc(50% - 300px);
   width: 150px;
 }
+
+.ideia:hover {
+  filter: drop-shadow(5px 5px 2px #000);
+}
