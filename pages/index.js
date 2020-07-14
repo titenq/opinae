@@ -5,10 +5,23 @@ import useSWR from 'swr';
 import HeadPage from '../components/HeadPage';
 import styles from '../css/index.module.css';
 
+if (process.browser) {
+  const img = document.getElementById('img');
+  
+  img.addEventListener('mouseenter', () => {
+    return img.src = '/assets/img/ideia-aceso.png';
+  });
+  
+  img.addEventListener('mouseleave', () => {
+    return img.src = '/assets/img/ideia-apagado.png';
+  });
+}
+
 const fetcher = (...args) => fetch(...args)
   .then(res => res.json());
 
 const Index = () => {
+
   const { data, error } = useSWR('/api/get-promo', fetcher);
   
   return (
@@ -19,7 +32,12 @@ const Index = () => {
         <p>Por isso queremos saber a sua opinião ou sugestão.</p>
       </div>
       <figure>
-        <img className={styles.ideia} src="/assets/img/ideia.png" alt="Ideia"/>
+        <img 
+          id="img"
+          className={styles.ideia} 
+          src="/assets/img/ideia-apagado.png" 
+          alt="Ideia"
+        />
       </figure>
       <Link href='/pesquisa'>
         <a>

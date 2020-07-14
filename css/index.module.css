@@ -33,8 +33,9 @@
   top: calc(50% - 90px);
   left: calc(50% - 300px);
   width: 150px;
+  transition: all 0.3s ease-in-out;
 }
 
 .ideia:hover {
-  filter: drop-shadow(5px 5px 2px #000);
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.5));
 }
