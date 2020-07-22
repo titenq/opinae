@@ -16,7 +16,6 @@ const Footer = () => {
         </a>
         <figure className={styles.imgs}>
           <img className={styles.fsm} src="/assets/img/logo-semana-fsm.png" alt="Semana FSM" />
-          <img className={styles.dev} src="/assets/img/logo-devpleno.png" alt="Dev Pleno" />
         </figure>
       </div>
     </div>
