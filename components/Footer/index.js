@@ -14,9 +14,6 @@ const Footer = () => {
           rel='noreferrer'>
             TitenQ
         </a>
-        <figure className={styles.imgs}>
-          <img className={styles.fsm} src="/assets/img/logo-semana-fsm.png" alt="Semana FSM" />
-        </figure>
       </div>
     </div>
   );
