@@ -1,6 +1,5 @@
 .wrapper {
   width: 100vw;
-  padding: 20px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -11,6 +10,7 @@
 
 .devBy {
   text-align: center;
+  padding: 20px;
 }
 
 .devBy span {
