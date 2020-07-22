@@ -50,7 +50,7 @@ const Pesquisa = () => {
       {!success && 
       <div>
         <h1 className={styles.title}>Opinião ou Sugestão</h1>
-        <p>O estabelecimento XXXXXX sempre busca por atender melhor seus clientes.</p>
+        <p>O estabelecimento Comida Mineira sempre busca por atender melhor seus clientes.</p>
         <p>Por isso sempre queremos saber a sua opinião ou sugestão.</p>
         <div className={styles.inputGroup}>
           <div className={styles.input}>

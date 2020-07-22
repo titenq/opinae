@@ -28,7 +28,7 @@ const Index = () => {
     <>
       <HeadPage title="Home" />
       <div className={styles.message}>
-        <p>O estabelecimento XXXXXX sempre busca pelo melhor atendimento aos seus clientes.</p>
+        <p>O estabelecimento Comida Mineira sempre busca pelo melhor atendimento aos seus clientes.</p>
         <p>Por isso queremos saber a sua opinião ou sugestão.</p>
       </div>
       <figure>
